@@ -40,7 +40,7 @@ void Insert(ItemType R, Queue *Q) {
 void Remove(Queue *Q, ItemType *F) {
 	QueueNode *Temp;
 
-	if (Q->Front == NULL){
+	if (Q->Front == NULL) {
 		printf("Attempt to remove item from an empty queue!\n");
 	}
 	else {
