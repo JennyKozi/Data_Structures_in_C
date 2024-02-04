@@ -8,16 +8,15 @@
 int main(void) {
 
 	Listptr list;
-	long curtime = time(NULL);
 	int i, size;
 
+	srand(time(NULL));
 	printf("\nInsert number of nodes for the list: ");
 	scanf("%d", &size);
+
 	if (size < 1) {
 		printf("\nWrong Input!\n");
 	}
-
-	srand(curtime);
 	Create(&list);
 	
 	for (i = 0; i < size; i++) {

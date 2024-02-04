@@ -35,7 +35,7 @@ void InsertAtStart(Listptr *list) {
 // Print list
 void PrintList(Listptr list) {
 	Listptr current = list;
-	while (current!=NULL) {
+	while (current != NULL) {
 		printf("%d ", current->data);
 		current = current->next;
 	}
