@@ -1,1 +1,9 @@
 # Cryptarithm Solver
+
+SEND + MORE = MONEY
+
+BASE + BALL = GAMES
+
+CROSS + ROAD = DANGER
+
+DONALD + GERALD = ROBERT
