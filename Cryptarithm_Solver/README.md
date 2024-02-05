@@ -7,3 +7,10 @@ BASE + BALL = GAMES
 CROSS + ROAD = DANGER
 
 DONALD + GERALD = ROBERT
+
+## Run:
+```bash
+make 
+make run
+make clean
+```
