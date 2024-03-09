@@ -8,8 +8,3 @@ make
 make run
 make clean
 ```
-```bash
-make 
-make run
-make clean
-```
